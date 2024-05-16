@@ -1,0 +1,635 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 80px;
+    cursor: pointer;
+    position: absolute;
+    top: 1%;
+    left: 7%;
+    
+}
+    
+body {
+    background-image: url(pic/bg.avif);
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}   
+nav ul{
+    flex: 1;
+    text-align: right;
+    padding-right: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a :hover,
+nav a.active{
+    color: rgb(230, 104, 59);
+   justify-content: space-between;
+}
+
+.content{
+    position: absolute;
+    top: 25%;
+    left: 1%;
+    margin-left: 3%;
+    margin-top: 6%;
+}
+
+.content h1{
+    font-size: 50px;
+    color: white;
+}
+.content h1 {
+   overflow: hidden;
+   white-space: nowrap;
+   animation: typewriter 2s
+   steps(20) 1s 1 normal both;
+   margin-left: 5%;
+}
+@keyframes typewriter{
+   from { width: 0; }
+   to { width: 100%; }
+}
+.content h2 {
+    font-size: 30px;
+    color: aliceblue;
+    margin-left: 5%;
+}
+.content h3{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-left: 15%;
+}
+
+.content span{
+    color: rgb(230, 104, 59);
+}
+.content h3{
+    position: absolute;
+    color:white;
+    
+}
+
+.image{
+    width: 30%;
+    height: 80%;
+    position: absolute;
+    right : 100px;
+    bottom: 0;
+}
+
+.image .girl{
+    position: absolute;
+    height: 120%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.image:hover .girl{
+    left: 55%;
+}
+
+
+
+
+.picture .img1 {
+    width: 22%;
+    height: 38%;
+    border-radius: 30px;
+    position: absolute;
+    top: 8%;
+    left: 2%;
+}
+
+.intro h1 {
+   color: red;
+    position: absolute;
+    font-weight: bold;
+    top: 8%;
+    left: 27%;
+}
+.intro h1:hover{
+    color:white;
+}
+
+.intro p {
+    color: white;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 6%;
+    border: 2px solid red;
+    position: absolute;
+    text-align: justify;
+    top: 14%;
+    left: 26%;
+}
+
+.intro1 h1{
+    color: red;
+    position: absolute;
+    top: 43%;
+    left: 35%;
+}
+
+.intro1 p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 4%;
+    border: 2px solid blue;
+    position: absolute;
+    text-align: justify;
+    top: 50%;
+    left: 35%;
+}
+
+.intro2 h1{
+    color: red;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+}
+
+.intro2 p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 4%;
+    border: 2px solid pink;
+    position: absolute;
+    text-align: justify;
+    top: 79%;
+    left: 50%;
+}
+
+.vid{
+    position: absolute;
+    top: 50%;
+    height: 340px;
+    width: 300px;
+    margin-left: 2%;
+}
+
+
+
+.edu h1{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: aqua;
+    position: absolute;
+    text-align: justify;
+    top: 14%;
+    left: 3%;
+}
+
+.edu h1:hover{
+    color:red;
+}
+
+.edu p{
+    color: white;
+    border-radius: 2%;
+   
+    border: 3px solid violet;
+    background-color: black;
+    position: absolute;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    top: 20%;
+    margin-left: 3%;
+}
+
+.edu1 h1{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    background-color: aqua;
+    position: absolute;
+    text-align: justify;
+    top: 13%;
+    left: 55%;
+}
+
+.edu1 ul{
+    padding: 20px;
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid orange;
+    border-radius: 5%;
+    top: 22%;
+    margin-left: 59%;
+    line-height: 15px;
+}
+
+.edu1 h1:hover{
+    color:red;
+}
+
+.edu2 h1{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: aqua;
+    position: absolute;
+    text-align: justify;
+    top: 55%;
+    left: 35%;
+}
+
+.edu2 h1:hover{
+    color:red;
+}
+
+.edu2 p{
+    color: white;
+    border: 3px solid yellow;
+    font-size: 22px;
+    position: absolute;
+    border-radius: 4%;
+    font-family: 'Times New Roman', Times, serif;
+    top: 63%;
+    left: 30%;
+}
+
+
+
+
+.youskills{
+    display: flex;
+    color: white;
+    position: absolute;
+    border: 9px solid yellow;
+    width: 400px;
+    height: 350px;
+    top: 35%;
+    justify-content: center;
+    align-items: center;
+    left: 3%;
+}
+
+.cont h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    position: absolute;
+    top: 2%;
+    text-align: justify;
+    left: 10%;
+
+}
+.cont{
+    padding: 20px;
+    font-family: Poppins;
+    text-align: justify;
+    box-sizing: border-box;
+    color: white;
+    font-size: 22px;
+}
+
+.youskills h1:hover{
+    color:red;
+}
+
+.myskills{
+    display: flex;
+    color: white;
+    position: absolute;
+    border: 9px solid violet;
+    width: 450px;
+    height: 200px;
+    top: -45%;
+    justify-content: center;
+    align-items: center;
+    left: 125%;
+}
+
+.cont1 h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    position: absolute;
+    top: 9%;
+    text-align: justify;
+    left: 20%;
+
+}
+.cont1{
+    padding: 20px;
+    font-family: Poppins;
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+}
+
+
+.myskills h1:hover{
+    color:blue;
+}
+
+.skills0{
+    display: flex;
+    color: white;
+    position: absolute;
+    border: 9px solid blue;
+    width: 450px;
+    height: 200px;
+    top: 130%;
+    justify-content: center;
+    align-items: center;
+    left: 20%;
+}
+
+.selfcont h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    position: absolute;
+    top: 10%;
+    text-align: justify;
+    left: 10%;
+
+}
+.selfcont{
+    padding: 20px;
+    font-family: Poppins;
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+}
+
+.skills0 h1:hover{
+    color: green;
+}
+
+
+
+
+
+.hobby h1{
+    color: white;
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 20%;
+    left: 40% ;
+}
+.hobby h2{
+    
+    color: black;
+    position: absolute;
+    border: 5px solid brown;
+    text-align: justify;
+    width: 30%;
+    height: 70%;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    top: 17%;
+    left: 3%;
+}
+
+.hobby h1:hover{
+    color: blueviolet;
+}
+
+.hobby ul{
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+    color: whitesmoke;
+    top: 35%;
+    left: 40%;
+}
+.hobby h3{
+    color: black;
+    position: absolute;
+    border: 5px solid brown;
+    text-align: justify;
+    width: 30%;
+    height: 70%;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    top: 17%;
+    left: 67%;
+}
+
+
+
+
+
+
+.photo5{
+    width: 300px;
+    height: 330px;
+    position: absolute;
+    top: 30%;
+    left: 2%;
+}
+
+.photo1 h3 {
+    color: orange;
+     position: absolute;
+     font-family: Arial, Helvetica, sans-serif;
+     top: 25%;
+     left: 3%;
+ }
+
+ .photo1 h3:hover{
+    color:white;
+ }
+
+.photo6{
+    width: 300px;
+    height: 330px;
+    position: absolute;
+    top: 30%;
+    left: 27%;
+}
+
+.photo2 h3 {
+    color: orange;
+     position: absolute;
+     font-family: Arial, Helvetica, sans-serif;
+     top: 25%;
+     left: 33%;
+ }
+
+ .photo2 h3:hover{
+    color:white;
+ }
+.photo7{
+    width: 290px;
+    height: 330px;
+    position: absolute;
+    top: 30%;
+    right: 25.5%;
+}
+
+.photo3 h3 {
+    color: orange;
+     position: absolute;
+     font-family: Arial, Helvetica, sans-serif;
+     top: 25%;
+     right: 33%;
+ }
+
+ .photo3 h3:hover{
+    color:white;
+ }
+
+.photo8{
+    width: 300px;
+    height: 330px;
+    position: absolute;
+    top: 30%;
+    right: 1%;
+}
+
+.photo4 h3 {
+    color: orange;
+     position: absolute;
+     font-family: Arial, Helvetica, sans-serif;
+     top: 25%;
+     right: 10%;
+ }
+
+ .photo4 h3:hover{
+    color:white;
+ }
+
+
+
+
+.mine{
+    color: aqua;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+
+.mine h1:hover{
+    color:rebeccapurple
+}
+
+
+ .contact{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 8%;
+    margin-left: 4%;
+    width: 32%;
+    height: 45%;
+    color: yellow;
+    border: 5px outset white;
+    border-radius:  9px;
+}
+
+
+.contact h2{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+}
+
+
+.contact h2:hover{
+    color: blue
+}
+
+
+.contact p{
+    font-size: 20px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 25px;
+}
+
+.firstcontact{
+    position: absolute;
+    width: 340px;
+    height: 130px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    top: 15%;
+    color: white;
+    border-radius: 10px;
+    border: 4px solid red;
+   background-color: transparent;
+}
+
+.secondcontact{
+    position: absolute;
+    width: 340px;
+    height: 130px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80%;
+    top: 140%;
+    color: white;
+    border-radius: 10px;
+    border: 4px solid yellow;
+   background-color: transparent;
+}
+
+.thirdcontact{
+    position: absolute;
+    width: 340px;
+    height: 130px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60%;
+    top: 130%;
+    color: white;
+    border-radius: 10px;
+    border: 4px solid blue;
+   background-color: transparent;
+}
+.links1{
+    position: absolute;
+    top: 90%;
+}
+.links2{
+    position: absolute;
+    top: 80%;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+}
